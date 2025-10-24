@@ -1,4 +1,4 @@
-name: rdp_to_windows
+name: Rdp to Windows
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
         type: choice
         description: 'Choose Windows version'
         options:
-          # windows server 2022
+          # windows server 2022, default value
           - windows-2022
           # windows server 2025
           - windows-2025
